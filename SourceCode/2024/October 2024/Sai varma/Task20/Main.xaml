@@ -1,0 +1,324 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>Microsoft.Win32.SafeHandles</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>System.Configuration.Assemblies</x:String>
+      <x:String>System.CodeDom.Compiler</x:String>
+      <x:String>System.Buffers</x:String>
+      <x:String>System.Buffers.Text</x:String>
+      <x:String>System.Buffers.Binary</x:String>
+      <x:String>System.Threading</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+      <x:String>System.Threading.Tasks.Sources</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.Unicode</x:String>
+      <x:String>System.Security.Principal</x:String>
+      <x:String>System.Security.Permissions</x:String>
+      <x:String>System.Security.Cryptography</x:String>
+      <x:String>System.Runtime</x:String>
+      <x:String>System.Runtime.Remoting</x:String>
+      <x:String>System.Runtime.ExceptionServices</x:String>
+      <x:String>System.Runtime.ConstrainedExecution</x:String>
+      <x:String>System.Runtime.Versioning</x:String>
+      <x:String>System.Runtime.Loader</x:String>
+      <x:String>System.Runtime.Intrinsics</x:String>
+      <x:String>System.Runtime.Intrinsics.Wasm</x:String>
+      <x:String>System.Runtime.Intrinsics.Arm</x:String>
+      <x:String>System.Runtime.Intrinsics.X86</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.InteropServices.ObjectiveC</x:String>
+      <x:String>System.Runtime.InteropServices.Marshalling</x:String>
+      <x:String>System.Runtime.InteropServices.ComTypes</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>System.Resources</x:String>
+      <x:String>System.Reflection.Metadata</x:String>
+      <x:String>System.Reflection.Emit</x:String>
+      <x:String>System.IO.Enumeration</x:String>
+      <x:String>System.Diagnostics.SymbolStore</x:String>
+      <x:String>System.Diagnostics.Contracts</x:String>
+      <x:String>System.Diagnostics.CodeAnalysis</x:String>
+      <x:String>System.Diagnostics.Tracing</x:String>
+      <x:String>System.Collections.Concurrent</x:String>
+      <x:String>Internal</x:String>
+      <x:String>System.CodeDom</x:String>
+      <x:String>Microsoft.CSharp</x:String>
+      <x:String>System.Linq.Expressions.Interpreter</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>UiPath.Workflow.Runtime</x:String>
+      <x:String>System.Activities.Tracking</x:String>
+      <x:String>System.Activities.Statements.Tracking</x:String>
+      <x:String>System.Activities.Runtime</x:String>
+      <x:String>System.Activities.Runtime.DurableInstancing</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Activities.ParallelTracking</x:String>
+      <x:String>System.Activities.Hosting</x:String>
+      <x:String>System.Activities.Persistence</x:String>
+      <x:String>System.Activities.DurableInstancing</x:String>
+      <x:String>System.ComponentModel.Design.Serialization</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>Microsoft.VisualBasic.FileIO</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="1) read range excel workbook&#xD;&#xA;2) use application&#xD;&#xA;3) for each activity to look through the datatable&#xD;&#xA;4) type into website&#xD;&#xA;5) get text&#xD;&#xA;6) write cell" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="840.0000000000001,1384.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="InputDT" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadRange AddHeaders="True" DataTable="[InputDT]" DisplayName="Read range from Excel workbook" sap:VirtualizedContainerService.HintSize="516.8,120" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="sheet1" WorkbookPath="Task20.xlsx">
+      <ui:ReadRange.Range>
+        <InArgument x:TypeArguments="x:String">
+          <Literal x:TypeArguments="x:String" Value="" />
+        </InArgument>
+      </ui:ReadRange.Range>
+    </ui:ReadRange>
+    <uix:NApplicationCard DisplayName="Use application/browser to navigate to the website" sap:VirtualizedContainerService.HintSize="516.8,1165.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="a7fd52c2-dffd-4ece-bfb3-7aad38674184">
+      <uix:NApplicationCard.AutoGenerationOptions>
+        <uix:GenerationOptions Prompt="" Url="">
+          <uix:GenerationOptions.ExpectedInputs>
+            <scg:List x:TypeArguments="x:String" Capacity="4">
+              <x:Null />
+            </scg:List>
+          </uix:GenerationOptions.ExpectedInputs>
+          <uix:GenerationOptions.ExpectedOutputs>
+            <scg:List x:TypeArguments="x:String" Capacity="4">
+              <x:Null />
+            </scg:List>
+          </uix:GenerationOptions.ExpectedOutputs>
+        </uix:GenerationOptions>
+      </uix:NApplicationCard.AutoGenerationOptions>
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="483.2,925.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Int32" Name="CellID" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[CellID]" DataTable="[InputDT]" DisplayName="For each row in DataTable" sap:VirtualizedContainerService.HintSize="449.6,865.6" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,675.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="resultText" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Input Text'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="a7fd52c2-dffd-4ece-bfb3-7aad38674184" Text="[CurrentRow.Item(&quot;Name&quot;).ToString]" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://sampleapps.vajrang.org/Uppercase%20Converter/" CVScreenId="6b9b0a84-270f-4f5c-be3c-ca00677b3462" CvTextArea="851, 466, 109, 20" CvTextArgument="Enter text here" CvType="Text" DesignTimeRectangle="852, 464, 193, 23" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='input-text' tag='INPUT' type='text' class='focus-visible' placeholder='Enter text here' aaname='Input Text:' /&gt;" Guid="4aadf47b-5ee1-43d0-bc16-1a507547d14e" InformativeScreenshot="bd752718c0e7e21c116eb86ee83281c9.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Uppercase Converter - Sample Apps Vajrang' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CVScreenId="6b9b0a84-270f-4f5c-be3c-ca00677b3462" CvTextArea="752, 466, 93, 21" CvTextArgument="Input Text:" CvType="Text" DesignTimeRectangle="754, 463, 93, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Input Text:' tag='LABEL' type='' class='' check:innerText='Input Text:' /&gt;" Guid="238130d1-6c13-4ab2-871e-374d1d85e94f" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NGetText DisplayName="Get Text 'VARMA'" sap:VirtualizedContainerService.HintSize="382.4,189.6" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="a7fd52c2-dffd-4ece-bfb3-7aad38674184" TextString="[resultText]" Version="V4">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://sampleapps.vajrang.org/Uppercase%20Converter/" CVScreenId="83a03361-dff0-4c2d-a2b6-0465e60352d2" CvTextArea="864, 454, 71, 17" CvType="AnyWordGroup" DesignTimeRectangle="866, 450, 69, 24" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='output-text' tag='SPAN' type='' class='' /&gt;" Guid="bbbb1fc4-37c7-4dc5-90c7-80603f05b7b5" InformativeScreenshot="aba71d8148c0348c6932ec6c1d42edd2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Uppercase Converter - Sample Apps Vajrang' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <ui:WriteCell Cell="[&quot;B&quot;+(CellID+2).ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="382.4,139.2" sap2010:WorkflowViewState.IdRef="WriteCell_3" SheetName="sheet1" Text="[resultText]" WorkbookPath="Task20.xlsx" />
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="15772c249d602bb92bb3b544a232cce4.jpg" Selector="&lt;html app='chrome.exe' title='Uppercase Converter - Sample Apps Vajrang' /&gt;" Title="Uppercase Converter - Sample Apps Vajrang" Url="https://sampleapps.vajrang.org/Uppercase%20Converter/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
