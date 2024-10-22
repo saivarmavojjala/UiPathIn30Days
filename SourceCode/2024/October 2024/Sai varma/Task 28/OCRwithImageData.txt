@@ -1,0 +1,187 @@
+/
+dUmindfiresolutions
+BUAN IGNORANCE
+Mindfire Solutions Case Study
+Public Web shop
+For selling furniture online
+Executive Summary
+This is a re-engineering project that we did for the client. The core business logic was taken from the
+existing system and then all redundant functionalities were removed and the entire application was re-
+written in ColdFusion.
+Actually early-on client had started this project with an in-house developer but after few months into the
+build they figured out that it was an immature written code not good enough for making live. That is client
+got in touch with us. We set up a two developer team with a shared QA resource for testing, directly
+reporting to the project manager of the Client.
+Since client had already spent time in building it in-house, time left for go to live was very less.
+It took our team 2 months to recode from scratch all basic function of public website and a basic site
+administrator and got it live on time with good quality.
+The client was also having multiple public facing websites of his furniture shop with different branding
+needs. The first website is designed such that, all the site look and feel {including header, footer, css,
+images) the same and product catalogue is dynamically customizable to rebrand quickly and release as a
+new website.
+Once that first web site for the client was launched, the focus changed to creating replicas of the same,
+using the core content driven architecture and two more websites are made live within a span of a week.
+About our Client
+Client Furniture manufacture and reseller | Location US | Industry Ecommerce
+Application features implemented by Mindfire
+Special features:
+1. CMS Driven website and dynamic menu/ submenu
+2. High resclution Product image slider and zoom in facility
+3. Fully Ajax shopping cart showing product images, pop up on product addition to cart
+4. Live chat facility integration
+5. Tracking order status
+6. 3 way payment facility
+7. IP tracing and blocking for spam attack/ unauthorized access
+info@mindfiresolutions.com www.mindfiresolutions.com/
+dUmindfiresolutions
+BUAN IGNORANCE
+Mindfire Solutions Case Study
+Site Admin Functionality
+The application has following management facility in admin section.
+1. Page
+2. Manufacturers
+3. Product Category, Fabric Selection & Products
+4. Product Tab management
+5. Orders
+6. Reporting
+7. Promo code Management
+8. IP Blocking
+9. Customers
+Page:
+The site admin is designed to manage all the public pages title, URL and page content. The admin section
+includes a Content Management Admin tool to manage content of pages like Home, About us, Contact us, FAQ
+ete.
+Home page:
+b SII ERE 3
+mT oT 4
+. . . 3
+' [i ->eatocd »
+fren abe
+fm ree mmm mama mas ey
+too. Ceo mem mmo
+MRT Te TTT .
+vet Te SKN s
+oes FTE «cy
+|: we ALE el 3
+=A -— : 4 a =n
+rr oT
+a : ol
+{ ce ee sed
+Manufacturers:
+Product manufacturer details like contact details, profit margin, preducts list they provide etc. are managed
+here.
+Product Category, Fabric Selection & Products management
+info@mindfiresolutions.com www.mindfiresolutions.com/
+dUmindfiresolutions
+BUAN IGNORANCE
+Mindfire Solutions Case Study
+Facility to manage (add, medify, remove, deactivate) categories products, fabrics, images etc is present in Admin
+section. Products can also be associated with product optiens for combined product sale and associated
+discount management.
+Product Page
+| 4
+[A 1
+” yt Ta Amy a = at !
+i TU mar TT es
+So mmm
+i Vol BEER
+| » Cae
+| A CLT
+PO :
+1% ——— a mad
+IE E27
+Product Tab management
+The admin is provided with facility to create tabs to show the product related details in multiple tabs in product
+page. The tab ordering can also be managed. One single product created can be made visible in 3 categories. Tab
+created for one product can be shared for more products of that category or manufacture.
+FT Ln manne - =
+| = 4
+i. - . 1
+mor ETE
+IL ad Tol oD ee
+Et eee
+[=== ee
+i |
+|S ESE =
+elim
+Tym Ee
+Admin — Managing Product details
+info@mindfiresolutions.com www.mindfiresolutions.com/
+dUmindfiresolutions
+BUAN IGNORANCE
+Mindfire Solutions Case Study
+i c ron
+i TT - =
+EEPTYe
+- . ] 2
+et . Ce
+Order:
+The order section provides facility to check all the orders and order details like products ordered, payment
+details and the amount left to be payable. Here we have facility to accept payment manually.
+The admin can modify part of the order like the product choice, quantity, and address of the customer, the price
+of each product, billing and shipping address, tag name.
+In order section admin can also change order status for products to ordered, shipped, completed or can also
+cancel the order. Admin can write notes for manufacturer for specific order. They can also write order status
+note for customers.
+Reporting:
+The reporting section provides facility to look for following types of report
+v' Customer balance sheet summary
+v' Invoice profit estimator summary
+¥' Transaction timeline
+Quick links are also provided to check customer balance sheet for today, one month, six month, this quarter, one
+year, two years.
+Facility is present to check the monthly sale report in graphical format. The admin can look for the products sold
+for different manufactures. Admin can also keep track of the preducts which are visited by customers, for
+making better business plan.
+Admin Sample report
+info@mindfiresolutions.com www.mindfiresolutions.com/
+dUmindfiresolutions
+BUAN IGNORANCE
+Mindfire Solutions Case Study
+Ropacte
+-— . ——
+bomb rm tae
+A ci | vn
+TenE a=) ne ST
+“oe -
+— -.
+foment nw om.
+eT TAT eam | ee fe tee
+fee
+Ems Ey
+ET = r—— = eC — —— T=
+Promo Code Management:
+For a promotional sale, admin can set promo code, the time till which it will stay active and the amount or
+percentage that will be deducted. Admin can also see the users who have used the promo code.
+IP Blocking:
+Admin can block and unblock any user by blocking his public IP using Blocked IP manager to prevent spam
+attacks form attackers IP.
+Customers Management:
+In member management section admin can check for products which are in cart with the customer. Admin can
+manage all details with the customers and can also reset the password for a customer.
+Payment Options:
+Here customers can pay in 3 ways.
+v' Using Credit card
+v' Call with Credit card
+v' Through wire transfer.
+The site is integrated with trusted third party payment processor, the Beanstream, for payment by credit card.
+During making purchase customer can also write notes to admin on his order like the urgency or time of call or
+any negotiations etc.
+Once the customer makes any purchase, he/she is immediately mailed the order details. At some occasions the
+site provides customers with promo cede facility to get discount on total purchase. The customers can easily
+info@mindfiresolutions.com www.mindfiresolutions.com/
+dUmindfiresolutions
+BUAN IGNORANCE
+Mindfire Solutions Case Study
+track their orders by visiting My Account page. Customers are also regularly emailed about the order status with
+admin note en it, with each progress made in order status.
+Technologies
+Server Side Language: ColdFusion 9
+Database: MySQL 5
+Scripting Language: Javascript (jQuery)
+Future relationship
+The client was pleased with Mindfire’s effort and reckened that they were happy to have discovered a
+professional offshore IT unit. We shall continue to be the service provider for the next versions of the client's
+product. They have not only allocated the support and maintenance work of the current system to Mindfire but
+have also chosen us for future customization work.
+info@mindfiresolutions.com www.mindfiresolutions.com
